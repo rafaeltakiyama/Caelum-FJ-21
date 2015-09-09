@@ -9,9 +9,9 @@ public class TestaInsert {
 
 	public static void main(String[] args) {
 		Contato contato = new Contato();
-		contato.setNome("Joao");
-		contato.setEmail("joao@gmail.com");
-		contato.setEndereco("Av. Prof. Joao Fiusa, 200");
+		contato.setNome("Enio");
+		contato.setEmail("enio@gmail.com");
+		contato.setEndereco("Rua Nabor Toledo Lopes, 27");
 		contato.setDataNascimento(Calendar.getInstance());
 		
 		ContatoDao dao = new ContatoDao();
